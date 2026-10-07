@@ -1,6 +1,5 @@
 import streamlit as st 
 import pandas as pd 
-import matplotlib.pyplot as plt
 import time 
 data=pd.read_csv("data/orders.csv")
 # st.dataframe(data)
